@@ -1,11 +1,16 @@
 
+// var createCounter = function (n) {
+
+//     return function () {
+//         return n++;
+//     };
+// };
 var createCounter = function (n) {
 
     return function () {
-        return n++;
+        return()=>n++;
     };
 };
-
 
 const counter = createCounter(10)
 counter() // 10
