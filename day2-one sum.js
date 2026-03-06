@@ -25,7 +25,7 @@ var createCounter = function(init) {
         increment,
         decrement,
         reset
-    }
+    } 
 };
 /**
  * const counter = createCounter(5)
